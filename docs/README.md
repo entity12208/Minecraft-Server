@@ -4,13 +4,12 @@
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.5-blue)](https://www.minecraft.net)
 [![Stars](https://img.shields.io/github/stars/entity12208/Fabric-Server)](https://github.com/entity12208/Fabric-Server/stargazers)
 
-A Linux-based Minecraft server setup script, designed for modded gameplay with performance and quality-of-life enhancements. Perfect for those who want a fully customizable Minecraft server experience.
+A Minecraft server setup script, designed for modded gameplay with performance and quality-of-life enhancements. Perfect for those who want a fully customizable Minecraft server experience.
 
 ---
 
 ## ⚡ Features
 
-- **Mod Support**: Pre-configured with popular SMP mods like Origins, REI, and Better Combat.
 - **Performance Optimized**: Includes Lithium, Starlight, and FerriteCore for smooth gameplay.
 - **Automated Backups**: Daily backups to ensure your world is safe.
 - **Whitelist Management**: Easily control server access with a whitelist.
@@ -28,7 +27,7 @@ A Linux-based Minecraft server setup script, designed for modded gameplay with p
 
 ## 🛠️ Adding Mods
 
-- To customize the mods, edit the `SMPMODS` array in `setup-fabric-server-full.sh` or `update-mods.sh` to include additional mod URLs.
+- To customize the mods, edit the `MODS` array in `setup-server.bat` or `update-mods.bat` to include additional mod URLs.
 - Alternatively, add `.jar` files directly to the `mods` folder.
 
 ---
